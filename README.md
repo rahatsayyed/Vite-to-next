@@ -98,6 +98,12 @@ Rename the `page` dir to `component_pages`.
 
 ### 9. Update .gitignore
 - update .gitignore find the file in repo
+---
+
+### 10. add `next.config.ts`
+- file attached in repo
+
+---
 
 ### ✅ Final Steps
 - Run the development server using:
