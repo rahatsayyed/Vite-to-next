@@ -7,7 +7,7 @@ Follow the steps below to successfully migrate your Vite + React + TypeScript pr
 ---
 
 ### 🗑️ 1. Delete the Vite.js File
-Remove the existing Vite configuration file (`vite.config.ts` or `vite.config.js`) from your project.
+Remove the existing Vite configuration file (`vite.config.ts` or `vite.config.js`) & `tsconfig.node.json` from your project.
 
 ---
 
@@ -89,6 +89,42 @@ Rename the `index.css` file to `global.css` and move it inside the `src/App` fol
 
 ###  8. Rename `pages` to `component_pages`
 Rename the `page` dir to `component_pages`.
+
+---
+### 9. Update `tsconfig.json`
+```
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "noImplicitAny": false
+  },
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
+```
 
 ---
 
