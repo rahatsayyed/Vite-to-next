@@ -128,6 +128,9 @@ Rename the `page` dir to `component_pages`.
 
 ---
 
+### 9. Update .gitignore
+- update .gitignore find the file in repo
+
 ### ✅ Final Steps
 - Run the development server using:
   ```sh
