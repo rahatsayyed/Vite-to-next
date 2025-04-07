@@ -87,6 +87,11 @@ Rename the `index.css` file to `global.css` and move it inside the `src/App` fol
 
 ---
 
+###  8. Rename `pages` to `component_pages`
+Rename the `page` dir to `component_pages`.
+
+---
+
 ### ✅ Final Steps
 - Run the development server using:
   ```sh
