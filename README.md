@@ -24,16 +24,15 @@ Modify your `package.json` file as shown below:
 
 ```json
 {
-  "name": "vite_react_shadcn_ts",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+ ...
+  ...
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  }
+  },
+...
 }
 ```
 
