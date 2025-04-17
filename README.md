@@ -90,17 +90,8 @@ Rename the `index.css` file to `global.css` and move it inside the `src/App` fol
 Rename the `page` dir to `component_pages`.
 
 ---
-### 9. Update `tsconfig.json`
-- file attached in repo
-- 
----
-
-### 9. Update .gitignore
-- update .gitignore find the file in repo
----
-
-### 10. add `next.config.ts`
-- file attached in repo
+### 9. Update `tsconfig.json`, `.gitignore` add `next.config.ts`
+- files attached in repo
 
 ---
 
