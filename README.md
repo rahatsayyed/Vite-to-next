@@ -94,7 +94,11 @@ Rename the `page` dir to `component_pages`.
 - files attached in repo
 
 ---
+### 10. Update .env and imports if any
+- import statement `import.meta.env.VITE_BF_URL` => `process.env.NEXT_PUBLIC_BF_URL`
+- exports `VITE_BF_URL` => `NEXT_PUBLIC_BF_URL`
 
+---
 ### ✅ Final Steps
 - Run the development server using:
   ```sh
